@@ -3,13 +3,13 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.neko</groupId>
+	<groupId>com.ndocflow.wolf.innocation</groupId>
 	<artifactId>seed</artifactId>
 	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
-	<name>Spring Boot Seed</name>
-	<description>Spring Boot Seed Project</description>
+	<name>wolf-newdocflow-innovate-service</name>
+	<description>wolf-newdocflow-innovate-service</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -32,7 +32,7 @@
 		<dependency>
 			<groupId>com.baomidou</groupId>
 			<artifactId>mybatis-plus-boot-starter</artifactId>
-			<version>3.0.6</version>
+			<version>3.5.6</version>
 		</dependency>
 
 		<dependency>
@@ -89,13 +89,6 @@
 			<version>0.10.5</version>
 			<scope>runtime</scope>
 		</dependency>
-		<!-- RSASSA-PSS (PS256, PS384, PS512) 加密依赖:
-		<dependency>
-			<groupId>org.bouncycastle</groupId>
-			<artifactId>bcprov-jdk15on</artifactId>
-			<version>1.60</version>
-			<scope>runtime</scope>
-		</dependency> -->
 	</dependencies>
 
 	<build>
